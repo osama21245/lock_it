@@ -9,7 +9,7 @@ class AppBackgroundColor extends StatelessWidget {
     return Container(
       decoration: const BoxDecoration(
           image: DecorationImage(
-              image: AssetImage('assets/image/background.png'),
+              image: AssetImage('assets/app_background.png'),
               fit: BoxFit.fill)),
       child: screenContent,
     );

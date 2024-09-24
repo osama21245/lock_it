@@ -1,6 +1,14 @@
 import 'package:flutter/material.dart';
 
 class AppPallete {
+//onBoarding
+
+  static const Color titleTextColor = Color.fromARGB(255, 229, 251, 240);
+  static const Color btnColor = Color.fromARGB(222, 0, 255, 123);
+  static const Color btnBorderColor = Color.fromARGB(255, 181, 252, 215);
+  static const Color subTitleTextColor = Color(0xFF9593a8);
+  static const Color activeDotColor = Color.fromARGB(255, 64, 248, 153);
+
   static const Color backgroundColor = Color.fromRGBO(24, 24, 32, 1);
   static const Color greyFontColor = Color(0xff60708F);
   static const Color greyColor = Color(0xff272B40);
