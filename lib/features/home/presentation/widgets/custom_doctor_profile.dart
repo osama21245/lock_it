@@ -13,13 +13,10 @@ class CustomDoctorProfile extends StatelessWidget {
       padding: const EdgeInsets.all(17.0).r,
       child: Row(
         children: [
-          ClipRRect(
-            borderRadius: BorderRadius.circular(60.91.r),
-            child: Image.asset(
-              "assets/app_logo.png",
-              width: 40.w,
-              fit: BoxFit.fitWidth,
-            ),
+          Image.asset(
+            "assets/home_profile_pic.png",
+            width: 58.04.w,
+            height: 52.11.h,
           ),
           horizontalSpace(12),
           Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
