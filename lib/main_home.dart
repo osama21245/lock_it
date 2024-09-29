@@ -30,7 +30,7 @@ class _MainHomeState extends State<MainHome> {
             SizedBox(
               height: 10,
             ),
-            Text("Welcome to Main Home Page"),
+            Text("Welcome to forked Main Home Page"),
           ],
         ),
       ),
