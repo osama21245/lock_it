@@ -9,10 +9,10 @@ class AppTheme {
       scaffoldBackgroundColor: AppPallete.backgroundColor,
       inputDecorationTheme: InputDecorationTheme(
         contentPadding: const EdgeInsets.all(27),
-        border: _border(),
-        enabledBorder: _border(),
-        focusedBorder: _border(AppPallete.primaryColor),
-        errorBorder: _border(AppPallete.errorColor),
+        border: _border(Colors.transparent),
+        enabledBorder: _border(Colors.transparent),
+        focusedBorder: _border(Colors.transparent),
+        errorBorder: _border(Colors.transparent),
       ),
       appBarTheme:
           const AppBarTheme(backgroundColor: AppPallete.backgroundColor));

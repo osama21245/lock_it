@@ -3,6 +3,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lock_it/core/theme/theme_data.dart';
 import 'package:lock_it/features/home/presentation/screens/home_screen.dart';
 
+import 'features/student/presentation/screens/create_student_account_screen.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Lock It',
         theme: AppTheme.appDarkTheme,
-        home: const HomeScreen(),
+        home: const CreateStudentAccountScreen(),
       ),
     );
   }
